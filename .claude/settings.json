@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/boulder.sh",
+            "timeout": 15,
+            "statusMessage": "완료 엔진: 평가 작업판 확인 중..."
+          }
+        ]
+      }
+    ]
+  }
+}
